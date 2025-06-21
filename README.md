@@ -1,1 +1,1 @@
-# SeminarProbabilisticML_LaplaceApproximation
+# ProbabilisticML_LaplaceApproximation
