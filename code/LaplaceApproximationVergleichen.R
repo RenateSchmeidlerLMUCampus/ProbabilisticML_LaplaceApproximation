@@ -4,6 +4,7 @@
 
 library(numDeriv)
 
+## Funktion zur Erstellung der Laplace-Approximation zu einer Verteilung probfunc
 
 laplace_approximation <- function(probfunc, lowBound, uppBound){
   neg_log_f <- function(x){
@@ -21,6 +22,8 @@ laplace_approximation <- function(probfunc, lowBound, uppBound){
   return(f)
 }
 
+
+## Graphische Gegenüberstellung von Funktion und Approximation
 
 
 ## Tests 
